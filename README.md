@@ -8,7 +8,9 @@ Pewlett-Hackard is looking to future proof itself as it faces an increased numbe
 
 •	Reviewing the tables generated as part of deliverable 1, we cannot use the data to accurately see the current retirement situation at Pewlett-Hackard. If we look at table “retiring_titles” (Table 2.1), we see the employee count being 90,398, which would be over 37% of Pewlett-Hackard’s total workforce, a significant number, but since we do not know how many of these are actual current employees we don't know the true impact. To fix the results of for deliverable 1, we need to update our queries with a filter to only produce include current employees.
 
-Table 2.1
+**Table 2.1: Retiring Title**
+
+![retiring_titles](https://github.com/calvogeorge/Pewlett-Hackard-Analysis/blob/676ed5e473fca522348526d4208ebbd4f80ad70c/retiring_titles_table_2.1.png)
 
 
 •	With a retirement being a high percentage of the company's total employees, it is imperative for the company to have all department manager plan to promote current employees to senior roles and leadership positions within the department, and hire new employees to fill their respective departments voids.
@@ -20,6 +22,10 @@ Table 2.1
 
 In summary to correct provide more accurate information about the actual number of retiring employees and the potential hiring needs for each department, we will update retiring_titles table to count only current employees (Table 3.1 current_retiring_titles), also provide a table with the count of retiring employees by departments for each manager to evaluate its department needs (3.2 current_retiring_dept).
 
-3.1
+**Table 3.1: Current Retiring By Titles**
 
-3.2
+![current_retiring_titles](https://github.com/calvogeorge/Pewlett-Hackard-Analysis/blob/676ed5e473fca522348526d4208ebbd4f80ad70c/current_retiring_titles_table_3.1.png)
+
+**Table 3.2: Current Retiring By Departments**
+
+![current_retiring_dept](https://github.com/calvogeorge/Pewlett-Hackard-Analysis/blob/676ed5e473fca522348526d4208ebbd4f80ad70c/current_retiring_dept_table_3.2.png)
